@@ -1,7 +1,3 @@
-# Dockerfile for faucet-dapp-starter-code-connect-wallet
-
-# Use the official Node.js 12 image.
-# https://hub.docker.com/_/node
 FROM node:12
 
 # Create and change to the app directory.
@@ -21,8 +17,6 @@ COPY . .
 # Run the web service on container startup.
 CMD [ "npm", "start" ]
 
-# Build the container with:
-# docker build -t faucet-dapp-starter-code-connect-wallet .
+# How to build the image
+#docker build -t faucetchainlink .
 
-# Run the container with:
-# docker run -p 9999:3000 faucet-dapp-starter-code-connect-wallet
