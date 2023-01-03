@@ -120,7 +120,7 @@ function App() {
         <div className="faucet-hero-body">
           <div className="container has-text-centered main-content">
             <h1 className="title is-1">UZH LINK Faucet</h1>
-            <p>Get your Link here.</p>
+            <p>Get your Link here. Token Address: 0x48120Eb14AB6EBe2C4F937c3c4915ae1DaF96736 </p>
             <div className="mt-5">
               {withdrawError && (
                 <div className="withdraw-error">{withdrawError}</div>
